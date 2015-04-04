@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="match_parent">
+
+	<com.gobaduchi.igsobserver.BoardView
+		android:id="@+id/board_view" android:layout_width="match_parent"
+		android:layout_height="match_parent"/>
+
+	<TextView android:id="@+id/legend_view" android:text=""
+		android:inputType="textMultiLine" 
+		android:textSize="15sp"
+		android:textStyle="bold"
+		android:typeface="monospace"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:background="#000000" android:layout_gravity="center_horizontal|bottom" />
+
+</FrameLayout>
